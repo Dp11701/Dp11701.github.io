@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Eleven Jobs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/midnight-blue.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis%7CMontserrat:200,300,400,500,600,700,800,900%7CNunito+Sans:200,300,400,600,700,800,900">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="page_loader"></div>
+
+<!-- Main header start -->
+<header class="main-header header-transparent sticky-header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="img/logos/black-logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav header-ml">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Index
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="index.html">Index 01</a></li>
+                            <li><a class="dropdown-item" href="index-2.html">Index 02</a></li>
+                            <li><a class="dropdown-item" href="index-3.html">Index 03</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Candidates
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink9">
+                            <li><a class="dropdown-item" href="candidate-list.html">Candidate Listing</a></li>
+                            <li><a class="dropdown-item" href="candidate-details.html">Thông tin chi tiết về ứng viên</a></li>
+                            <li><a class="dropdown-item" href="add-resume.html">Thêm hồ sơ</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="employer-dashboard.html">Trang tổng quan ứng viên</a>
+                                <ul class="dropdown-menu dm-2">
+                                    <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="edit-profile.html">Chỉnh sửa hồ sơ</a></li>
+                                    <li><a class="dropdown-item" href="add-resume.html">Thêm hồ sơ</a></li>
+                                    <li><a class="dropdown-item" href="bookmark.html">bookmark</a></li>
+                                    <li><a class="dropdown-item" href="applied.html">Applied</a></li>
+                                    <li><a class="dropdown-item" href="messages.html">Messages</a></li>
+                                    <li><a class="dropdown-item" href="alerts.html">Thông báo việc làm </a></li>
+                                    <li><a class="dropdown-item" href="transaction.html">Giao dịch</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nhà tuyển dụng
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="employer-list.html">Danh sách nhà tuyển dụng</a></li>
+                            <li><a class="dropdown-item" href="employer-details.html">Thông tin chi tiết về nhà tuyển dụng</a></li>
+                            <li><a class="dropdown-item" href="employer-dashboard-post-job.html">Đăng tuyển</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="employer-dashboard.html">Trang tổng quan về nhà tuyển dụng</a>
+                                <ul class="dropdown-menu dm-2">
+                                    <li><a class="dropdown-item" href="employer-dashboard.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-edit-profile.html">Chỉnh sửa hồ sơ</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-post-job.html">Đăng tuyển</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-manage-job.html">Quản lý công việc</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-manage-candidate.html">Quản lý ứng viên</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-messages.html">Messages</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-transaction.html">Giao dịch</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Jobs
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink10">
+                            <li><a class="dropdown-item" href="job-list.html">Danh sách công việc</a></li>
+                            <li><a class="dropdown-item" href="job-details.html">Chi tiết công việc</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li active">
+                        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trang</a>
+                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                            <div class="megamenu-area">
+                                <div class="row sobuz">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Trang</h6>
+                                            <a class="dropdown-item" href="about.html">Vê chúng tôi</a>
+                                            <a class="dropdown-item" href="pricing-plan.html">Gói định giá</a>
+                                            <a class="dropdown-item" href="terms-and-condition.html">Điều khoản và điều kiện</a>
+                                            <a class="dropdown-item" href="how-it-work.html">Làm thế nào nó hoạt động</a>
+                                            <a class="dropdown-item" href="invoices.html">Hóa đơn </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Trang</h6>
+                                            <a class="dropdown-item" href="contact.html">Liên hệ với chúng tôi</a>
+                                            <a class="dropdown-item" href="gallery.html">Thư viện </a>
+                                            <a class="dropdown-item" href="typography.html">Kiểu chữ </a>
+                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                            <a class="dropdown-item" href="faq.html">Câu hỏi thường gặp</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Trang</h6>
+                                            <a class="dropdown-item" href="icon.html">Icons</a>
+                                            <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                                            <a class="dropdown-item" href="login.html">Đăng nhập </a>
+                                            <a class="dropdown-item" href="404.html">Error Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink7">
+                            <li><a class="dropdown-item" href="blog-columns-1.html">Blog 1 Columns</a></li>
+                            <li><a class="dropdown-item" href="blog-columns-2.html">Blog 2 Columns</a></li>
+                            <li><a class="dropdown-item" href="blog-columns-3.html">Blog 3 Columns</a></li>
+                            <li><a class="dropdown-item" href="blog-details.html">Blog Detele</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="login.html">
+                            <i class="flaticon-logout"></i>Sign In
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="employer-dashboard-post-job.html" class="nav-link link-color"><i class="flaticon-plus"></i> Đăng tuyển</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner bg-color-full">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Làm thế nào nó hoạt động</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Làm thế nào nó hoạt động</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub banner end -->
+
+<!-- Làm thế nào nó hoạt động start -->
+<div class="how-it-work content-area">
+    <div class="container">
+        <div class="row mb-70">
+            <div class="col-md-6 col-lg-5">
+                <img class="img-fluid work-photo" src="http://placehold.it/445x317" alt="work">
+            </div>
+            <div class="col-md-5 offset-md-1 col-lg-6 offset-lg-1">
+                <div class="work-item">
+                    <h1>01</h1>
+                    <h3>Create Account</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-70">
+            <div class="col-md-5 col-lg-6">
+                <div class="work-item">
+                    <h1>02</h1>
+                    <h3>Search Your Job</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-1 col-lg-5 offset-lg-1">
+                <img class="img-fluid work-photo" src="http://placehold.it/445x317" alt="work">
+            </div>
+        </div>
+        <div class="row mb-70">
+            <div class="col-md-6 col-lg-5">
+                <img class="img-fluid work-photo" src="http://placehold.it/445x317" alt="work">
+            </div>
+            <div class="col-md-5 offset-md-1 col-lg-6 offset-lg-1">
+                <div class="work-item">
+                    <h1>03</h1>
+                    <h3>Apply For Job</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-lg-6">
+                <div class="work-item">
+                    <h1>02</h1>
+                    <h3>Customer support begins</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-1 col-lg-5 offset-lg-1">
+                <img class="img-fluid work-photo" src="http://placehold.it/445x317" alt="work">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Làm thế nào nó hoạt động end -->
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-item clearfix">
+                    <img src="img/logos/logo.png" alt="logo" class="f-logo">
+                    <ul class="contact-info">
+                        <li>
+                            <i class="flaticon-pin"></i>20/F Green Road, Dhanmondi, Dhaka
+                        </li>
+                        <li>
+                            <i class="flaticon-mail"></i><a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-internet"></i><a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-phone"></i><a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Helpful Links</h4>
+                    <ul class="links">
+                        <li>
+                            <a href="#">Vê chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ với chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Job Seekers</h4>
+                    <ul class="links">
+                        <li>
+                            <a href="#">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Career Counseling</a>
+                        </li>
+                        <li>
+                            <a href="pricing-tables.html">My Oficiona</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Câu hỏi thường gặp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Nhà tuyển dụng</h4>
+                    <ul class="links">
+                        <li>
+                            <a href="#">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Products $ Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Post a Task</a>
+                        </li>
+                        <li>
+                            <a href="#">Câu hỏi thường gặp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-8 col-sm-12">
+                <div class="footer-item clearfix">
+                    <h4>Newsletter</h4>
+                    <div class="Subscribe-box">
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                        <form class="form-inline" action="#" method="GET">
+                            <input type="text" class="form-control mb-sm-0" id="inlineFormInputName3" placeholder="Email Address">
+                            <button type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<!-- Sub footer start -->
+<div class="sub-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <p class="copy">© 2019 <a href="#">Theme Vessel.</a> Trademarks and brands are the property of their respective owners.</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <ul class="social-list clearfix">
+                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sub footer end -->
+
+<!-- Full Page Search -->
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="index.html#">
+        <input type="search" value="" placeholder="type keyword(s) here" />
+        <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+</div>
+
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/leaflet.js"></script>
+<script  src="js/leaflet-providers.js"></script>
+<script  src="js/leaflet.markercluster.js"></script>
+<script  src="js/moment.min.js"></script>
+<script  src="js/daterangepicker.min.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/maps.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
